@@ -90,19 +90,24 @@ export const SKILL_DATA = [
 
 export const SOCIALS = [
   {
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/monk-81273030b/",
+  },
+  {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/monkbfh/",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/profile.php?id=61560227816465",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://twitter.com/MonkRoks",
   },
 ] as const;
 
@@ -308,17 +313,23 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://www.instagram.com/monkbfh/",
       },
       {
         name: "Twitter",
         icon: RxTwitterLogo,
-        link: "https://twitter.com",
+        link: "https://twitter.com/MonkRoks",
       },
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/monk-81273030b/",
+      },
+      {
+        name: "Facebook",
+        icon: FaFacebook,
+        link: "https://www.facebook.com/profile.php?id=61560227816465",
+        
       },
     ],
   },
@@ -328,7 +339,7 @@ export const FOOTER_DATA = [
       {
         name: "Become Sponsor",
         icon: null,
-        link: "https://youtube.com",
+        link: "https://youtube.com/@bfh-benefitforhumanity?si=DVdEDY-cmEY5SlpW",
       },
       {
         name: "Learning about me",
@@ -338,7 +349,7 @@ export const FOOTER_DATA = [
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:monk.varora@bfhaltruistic.com",
       },
     ],
   },
@@ -360,5 +371,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "",
 };
