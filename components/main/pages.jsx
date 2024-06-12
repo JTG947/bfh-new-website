@@ -4,7 +4,7 @@ import ParticlesContainer from "../ParticlesContainer";
 import ProjectsBtn from "../ProjectsBtn";
 
 
-import { fadeIn } from "../variants";
+import { fadeIn } from "../../variants";
 
 export const Pages = () => {
   return (

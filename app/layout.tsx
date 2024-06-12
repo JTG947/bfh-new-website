@@ -2,14 +2,16 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import type { PropsWithChildren } from "react";
 
-import { Footer } from "@/components/main/footer";
-import { Nav } from "@/components/main/nav";
-import { StarsCanvas } from "@/components/main/star-background";
-import { siteConfig } from "@/config";
+import { Footer } from "../components/main/footer";
+import { Navbar } from "../components/main/navbar";
+import { StarsCanvas } from "../components/main/star-background";
+import { siteConfig } from "../config";
 import { cn } from "@/lib/utils";
 
 
 import "./globals.css";
+import Sidebar from "@/components/main/sidebar";
+import About from "@/components/main/about";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +31,8 @@ export default function RootLayout({ children }: PropsWithChildren) {
         )}
       >
         <StarsCanvas />
-        <Nav />
+        <Navbar />
+        <Sidebar/>
         {children}
         <Footer />
       </body>

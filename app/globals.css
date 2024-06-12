@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
