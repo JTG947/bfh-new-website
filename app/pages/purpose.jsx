@@ -1,19 +1,18 @@
 import { motion } from "framer-motion";
 
 import Bulb from "../../components/Bulb";
-import Circles from "../../Circles";
-import ServiceSlider from "../../ServiceSlider";
-import { fadeIn } from "../../../variants";
+import Circles from "../../components/Circles";
+import WorkSlider from "../../components/WorkSlider";
+import { fadeIn } from "../../variants";
 
-export const serviceData = [];
-
-const Services = () => {
+const Work = () => {
   return (
     <div className="h-full bg-primary/30 py-36 flex items-center">
       <Circles />
+    
       <Bulb />
     </div>
   );
 };
 
-export default Services;
+export default Work;
