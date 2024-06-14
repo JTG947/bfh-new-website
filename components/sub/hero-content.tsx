@@ -38,7 +38,7 @@ export const HeroContent = () => {
               revolutionize{"  "}
             </span>{"  "}
 
-            world.
+             the world.
           </span>
         </motion.div>
 
