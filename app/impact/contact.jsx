@@ -35,7 +35,7 @@ const Contact = () => {
             exit="hidden"
             className="h2 text-center mb-12"
           >
-            Let's <span className="text-accent">connect.</span>
+            Lets <span className="text-accent">connect.</span>
           </motion.h2>
 
           {/* form */}
@@ -99,7 +99,7 @@ const Contact = () => {
               aria-disabled={isLoading}
             >
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                Let's talk
+                Lets talk
               </span>
 
               <BsArrowRight
